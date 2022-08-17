@@ -22,7 +22,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     //step-7: 
     withdrawField.value = '';
 
-    if(isNaN(newBalanceTotal)){
+    if(isNaN(newWithdrawAmount)){
         alert('Please provide a valid numver');
         return;
     }
