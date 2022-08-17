@@ -17,6 +17,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     if(email === 'shoyaibislam@gmail.com' && password ==='shoyaib'){
         window.location.href = 'bank.html';
     }
+    if(email === 'sadiaislam@gmail.com' && password ==='sadia'){
+        window.location.href = 'bank.html';
+    }
     else{
         alert('Toke ami taijjo sontan gosona korlam.tui password vule gesos');
     }
